@@ -12,3 +12,4 @@ def plot_gallery(images, h, w, titles=None ,n_row=3, n_col=4):
             plt.title(str(i+1), size=12)
         plt.xticks(())
         plt.yticks(())
+    plt.show()
